@@ -1,0 +1,13 @@
+<!-- WebContent/doctor-login.jsp -->
+<!DOCTYPE html>
+<html>
+<head><title>Doctor Login</title></head>
+<body>
+    <h2>Doctor Login</h2>
+    <form action="doctorlogin" method="post">
+        Username: <input type="text" name="username"><br><br>
+        Password: <input type="password" name="password"><br><br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
