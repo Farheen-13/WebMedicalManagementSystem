@@ -13,7 +13,7 @@ public class AdminLogin extends HttpServlet {
 
         if ("admin".equals(username) && "admin123".equals(password)) {
             response.sendRedirect("admin-dashboard.jsp");
-        } else {
+        } else{
             response.getWriter().println("Invalid Admin Login!");
         }
     }
